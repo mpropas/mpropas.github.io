@@ -1,20 +1,423 @@
 <!DOCTYPE html>
-<html>
-
-  <!-- HEAD -->
+<html lang="en">
   <head>
-<<<<<<< HEAD
-=======
     <meta charset = "UTF-8">
->>>>>>> c49a061c68d2c1edb34f6f311ed05a4fd25dcc8d
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Michal Propas</title>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
-
-
-  <!-- BODY -->
   <body>
-    <video autoplay muted loop src="./resources/videos/Wave.mp4">Not Suported</video>
-  </body>
 
+
+<!--############################### NAVBAR ##################################-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class "navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsedNav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-brand"><b>Michal Propas</b></p>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsedNav">
+          <ul class="nav navbar-nav">
+            <li><a href="#affiliation">Affiliation</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Project 1</a></li>
+                <li><a href="#">Project 2</a></li>
+                <li><a href="#">Project 3</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <a type="button" class="btn btn-default navbar-btn navbar-right no-right-margin no-decoration" href="#contact">Contact</a>
+
+        </div>
+      </div>
+    </nav>
+
+
+<!--############################ JUMBOTRON ##################################-->
+    <div class="jumbotron">
+      <div class="container">
+          <p class="white">Brief of the Qualifications of:</p>
+          <h1>Michal Propas
+            <small class="hidden-xs">
+              <span>B.Com.</span>
+              <span>M.Q.F.</span>
+              <span>A.S.A.</span>
+              <span>C.E.R.A.</span>
+            </small>
+          </h1>
+      </div>
+    </div>
+
+
+    <!-- MAIN CONTENT -->
+    <div class="container-fluid">
+      <div class="row">
+
+<!--########################### ABOUT ME ####################################-->
+        <section class="section-box-about container-fluid">
+          <h3 class="section-title">About Me</h3>
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="text-justify lead">As an Actuary and Quant, I have developed excellent critical thinking and attention to detail. I enjoy solving analytically challenging problems, working with teams to plan and implement solutions, and dynamically communicating results in written or verbal form.</p>
+              <p class="text-justify lead">My experience spans the fundamental disciplines of computer science, economics, finance, mathematics and marketing. Notable projects include building and maintaining financial models, designing investment strategies, and interacting with clients to solve asset-liability matching, strategic asset allocations and marketing efficiencies.</p>
+            </div>
+            <img src="resources/images/mike.jpg" id="mike-img" class="col-xs-3 img-responsive img-circle hidden-xs hidden-print pull-right"/>
+          </div>
+        </section>
+
+
+        <div class="col-sm-6 no-padding">
+<!--###################### PROFESSIONAL AFFILIATION ######################## -->
+          <section class="section-box">
+            <a class="anchor" id="affiliation"></a>
+            <h3 class="section-title">Professional Affiliation</h3>
+
+            <!-- ASA -->
+            <p>
+              <a href="http://www.soa.org" target="_blank">Society of Actuaries</a><br/>
+              <b>Associate of the Society of Actuaries (ASA) - 2016</b>
+            </p>
+            <div class="well text-justify">
+              <p class="make-inline">An Associate of the Society of Actuaries has demonstrated knowledge of the fundamental concepts and techniques for modeling and managing risk.</p>
+              <div id="moreASA" class="collapse">
+                <br/>
+                <p>The ASA has learned the basic methods of applying those concepts and techniques to common problems involving uncertain future events, especially those with financial implications. The Associate has also completed a professionalism course covering the professional code of conduct and the importance of adherence to recognized standards of practice.</p>
+              </div>
+              <a href="#moreASA" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+
+            <!-- CERA -->
+            <p>
+              <a href="http://www.ceraglobal.org/" target="_blank">CERA Global Institute</a><br/>
+              <b>Chartered Enterprise Risk Analyst (CERA) - 2016</b>
+            </p>
+            <div class="well text-justify">
+              <p class="make-inline">A Chartered Enterprise Risk Analyst is a professional with deep <abbr title="Enterprise Risk Managment">ERM</abbr> expertise and the ability to take a 360-degree approach to an organization’s risk profile.</p>
+              <div id="moreCERA" class="collapse">
+                <br/>
+                <p>The CERA is a global risk management qualification which:
+                  <ul>
+                    <li>Encompasses a world­‐class curriculum that combines actuarial science with the theoretical, practical and professional principles of ERM</li>
+                    <li>Instils the highest professional standards, with an impeccable code of ethics and rigorous educational requirements</li>
+                    <li>Is consistent with modern, effective methodologies</li>
+                    <li>Applies both qualitative and quantitative insight to ERM, and</li>
+                    <li>Equips risk management professionals to empower better business decisions.</li>
+                  </ul>
+                </p>
+              </div>
+              <a href="#moreCERA" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+
+            <!-- CFA -->
+            <p>
+              <a href="https://www.cfainstitute.org/" target="_blank">CFA Institute</a><br/>
+              Candidate for <b>Chartered Financial Analyst (CFA)</b>
+            </p>
+            <div class="well text-justify">
+              <p class="make-inline">A Chartered Financial Analyst is a financial professional with strong real-world investment analysis and portfolio management skills along with the practical knowledge for today’s investment industry.</p>
+              <div id="moreCFA" class="collapse">
+                <br/>
+                <p>The CFA credential imparts real-world analytical skills, technical competence, and the highest professional standards.</p>
+              </div>
+              <a href="#moreCFA" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+          </section>
+
+
+<!--########################### EDUCATION ###################################-->
+          <section class="section-box">
+            <h3 class="section-title">Education</h2>
+            <a class="anchor" id="education"></a>
+
+            <!-- WATERLOO -->
+            <div class="container-fluid">
+              <div class="row">
+                <p class="col-xs-9 no-padding">
+                  <a href="https://uwaterloo.ca/master-of-quantitative-finance" target="_blank">University of Waterloo</a><br/>
+                  <b>Master of Quantitative Finance (M.Q.F.) - 2012</b>
+                </p>
+                <span class="col-xs-3">
+                  <img src="resources/images/waterloo.gif" class="fixed-width pull-right">
+                </span>
+              </div>
+            </div>
+            <div class="well text-justify">
+              <p class="make-inline">The MQF program focuses on the fundamental disciplines of mathematics, statistics, econometrics, computer science and finance.</p>
+              <div id="moreWaterloo" class="collapse">
+                <br/>
+                <p>It provides the analytical tools to solve practical problems in the complex and rapidly evolving world of today's financial industry. Topics include: no-arbitrage theory in discrete time, risk management, portfolio selection, structured financial instruments, interest rate models, derivations of pricing equations, stochastic optimal control, hedging in incomplete markets and credit risk models.</p>
+              </div>
+              <a href="#moreWaterloo" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+
+            <!-- MCGILL -->
+            <div class="container-fluid">
+              <div class="row">
+                <p class="col-xs-9 no-padding">
+                  <a href="https://www.mcgill.ca/desautels/programs/bcom" target="_blank">McGill University</a><br/>
+                  <b>Honors Bachelor of Commerce (B.Com) - 2010</b>
+                </p>
+                <span class="col-xs-3">
+                  <img src="resources/images/mcgill_university.png" class="fixed-width pull-right">
+                </span>
+              </div>
+            </div>
+            <div class="well text-justify">
+              <p class="make-inline">The primary objective of the McGill BCom program is preparation for an effective professional and managerial career.</p>
+              <div id="moreMcGill" class="collapse">
+                <br/>
+                <p>This preparation includes developing a capacity for critical thinking, for integrating knowledge across different disciplines, and for utilizing current theory in approaching practical business problems. Students become comfortable with taking risks, working as part of a team, and developing the necessary skills to lead others.</p>
+              </div>
+              <a href="#moreMcGill" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+          </section>
+        </div>
+
+
+        <div class="col-sm-6 no-padding">
+<!--######################### TECHNICAL SKILL ###############################-->
+          <section class="section-box no-left-margin">
+          <a class="anchor" id="skills"></a>
+            <h3 class="section-title">Technical Skill</h2>
+              <ul class="nav nav-tabs nav-justified">
+                <li><a href="#advanced" data-toggle="tab">Advanced</a></li>
+                <li class="active"><a href="#intermediate" data-toggle="tab">Intermediate</a></li>
+                <li><a href="#basic" data-toggle="tab">Basic</a></li>
+              </ul>
+
+              <div class="tab-content well">
+              <!-- ADVANCED SKILLS -->
+                <div class="tab-pane" id="advanced">
+                  <p><b>Excel</b></p>
+                  <ul>
+                    <li>Advanced Formulas</li>
+                    <li>Tables &amp Formatting</li>
+                    <li>Advanced Charting</li>
+                    <li>Pivot Tables &amp Pivot Reporting</li>
+                    <li>Simulations &amp Solver</li>
+                    <li>Intergrating Excel with Other Tools</li>
+                  </ul>
+                  <p><b>VBA</b></p>
+                  <ul>
+                    <li>Programming Formulas &amp Charts</li>
+                    <li>Worksheet &amp Workbook Events</li>
+                    <li>Embedded Controls</li>
+                    <li>User-Defined Functions</li>
+                    <li>UserForms</li>
+                    <li>Managing External Data</li>
+                  </ul>
+                </div>
+
+                <!-- INTERMEDIATE SKILLS -->
+                <div class="tab-pane active" id="intermediate">
+                  <p><b>Python</b></p>
+                  <ul>
+                    <li>Data Analysis: <b>NumPy</b>, <b>Pandas</b></li>
+                    <li>Data Visualization: <b>Matplotlib</b></li>
+                    <li>Web Development: <b>Flask</b>, <b>Jinja2</b></li>
+                    <li>Advanced Data Structures &amp Algorithms</li>
+                  </ul>
+                  <p><b>SQL</b></p>
+                  <ul>
+                    <li>Relational Databases: MySQL, SQLite</li>
+                </div>
+
+                <!-- BASIC SKILLS -->
+                <div class="tab-pane" id="basic">
+                  <p><b>Other Programming Languages</b></p>
+                  <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Ruby</li>
+                  </ul>
+                  <p><b>Data Software</b></p>
+                  <ul>
+                    <li>SAS</li>
+                    <li>STATA</li>
+                    <li>MATLAB</li>
+                  </ul>
+                  <p><b>Front-End Web Development</b></p>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript &amp jQuery</li>
+                  </ul>
+                  <p><b>Version Control</b></p>
+                  <ul>
+                    <li>Git &amp Github</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+
+<!--########################## EXPERIENCE ###################################-->
+          <section class="section-box no-left-margin">
+          <a class="anchor" id="experience"></a>
+            <h3 class="section-title">Experience</h3>
+
+            <!-- INDEPENDENT STUDY -->
+            <p><b>Independent Consulting &amp Study - 2015-Present</b></p>
+            <div class="well text-justify">
+              <p class="make-inline">During this period I significantly improved my technology and self-managment skills, in addition to completing the Actuarial and CFA programs.</p>
+              <div id="moreIndependent" class="collapse">
+                <br/>
+                <p>The CFA credential imparts real-world analytical skills, technical competence, and the highest professional standards.</p>
+              </div>
+              <a href="#moreIndependent" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+
+            <!-- NIELSEN -->
+            <div class="container-fluid">
+              <div class="row">
+                <p class="col-xs-9 no-padding">
+                  <a href="http://www.nielsen.com" target="_blank">Nielsen</a><br/>
+                  <b>Research Scientist, Measurement Science - 2014<br/>Intern, Media Analytics - 2013</b>
+                </p>
+                <span class="col-xs-3">
+                  <br>
+                  <img src="resources/images/nielsen.png" class="fixed-width pull-right">
+                </span>
+              </div>
+            </div>
+            <div class="well text-justify">
+              <p class="make-inline">Nielsen provides clients with a comprehensive understanding of consumer behavior. As a Research Scientist, I worked with the Data Fusion &amp Integration group creating consistent, accurate and useful representative survey data.</p>
+              <div id="moreNielsen" class="collapse">
+                <br/>
+                <p>My significant accomplishments included:
+                  <ul>
+                    <li>Automated Brand Effect monitoring, significantly reducing monthly update effort: With limited directive, I automated the updating process using VBA programming, incorporating complicated importing, sorting, formatting and graphical displays.</li>
+                    <li>Presented correlation study between App usage and TV ratings: I participated in client meetings and created client deliverables, collaborating with participants across local analysis, measurement science, media analytics and client consulting.</li>
+                    <li>Drafted white paper on outlook for radio: I assisted with researching and drafting Nielsen white papers, synthesizing research from journal publications and diverse sources.</li>
+                  </ul>
+                </p>
+              </div>
+              <a href="#moreNielsen" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+
+            <!-- JACKSON -->
+            <div class="container-fluid">
+              <div class="row">
+                <p class="col-xs-9 no-padding">
+                  <a href="https://www.jackson.com" target="_blank">Jackson</a><br/>
+                  <b>Financial Analyst, ALM - 2012<br/>Intern, ALM - 2011</b>
+                </p>
+                <span class="col-xs-3">
+                  <br>
+                  <img src="resources/images/jackson3.png" class="fixed-width pull-right">
+                </span>
+              </div>
+            </div>
+            <div class="well text-justify">
+              <p class="make-inline">Jackson National Life, the largest US variable annuity provider, delivers specialized retirement solutions. As a Financial Analyst in <abbr title="Asset and Liability Management">ALM</abbr>, I contributed to cash flow testing and economic capital responsibilities.</p>
+              <div id="moreJackson" class="collapse">
+                <br/>
+                <p>My significant accomplishments included:
+                  <ul>
+                    <li>Created VBA macros to illustrate fund risk-return characteristics: I reformatted data into a visually tractable format and created macros to automatically recreate the analysis each quarter.</li>
+                    <li>Prepared spreadsheets valuing inforce options: I reviewed and reformatted outdated valuation spreadsheets for Jackson's inforce options, swaps and swaptions, implementing a Black-Scholes valuation framework that could automatically adapt to different option characteristics.</li>
+                    <li>Modeled a new 'control of assets' provision: I develop a modeling framework for a new product that contained a ‘Control of Assets’ pricing formula specifying mandatory transfers between investment accounts of the variable annuity when certain criteria are met.</li>
+                  </ul>
+                </p>
+              </div>
+              <a href="#moreJackson" class="btn btn-link" id="moreLink" data-toggle="collapse" aria-expanded="false">Read More...</a>
+            </div>
+          </section>
+        </div>
+
+
+<!--############################### CONTACT ##################################-->
+        <footer class="col-xs-12">
+          <a class="anchor" id="contact"></a>
+          <h3 class="white">Contact</h3>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-6 col-sm-3 text-center">
+                <a href="tel:646-771-7038">
+                  <h2><i class="fa fa-phone"></i></h2>
+                  <h5>646-771-7038</h5>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 text-center">
+                <a href="mailto:mpropas@hotmail.com">
+                  <h2><i class="fa fa-envelope"></i></h2>
+                  <h5>mpropas@hotmail.com</h5>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 text-center">
+                <a href="http://www.linkedin.com/in/mpropas" target="_blank">
+                  <h2><i class="fa fa-linkedin"></i></h2>
+                  <h5>mpropas</h5>
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-3 text-center">
+                <a href="https://www.google.com/maps/place/East+Village,+New+York,+NY/" target="_blank">
+                  <h2><i class="fa fa-location-arrow"></i></h2>
+                  <h5>New York, NY</h5>
+                </a>
+              </div>
+            </div>
+            <br/><br/>
+          </div>
+        </footer>
+
+      </div>
+    </div>
+
+
+<!--############################### SCRIPTS #################################-->
+    <!--jQuery--><script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <!--jQueryUI--><script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+    <!--Bootstrap--><script src="resources/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready( function() {
+        $('a#moreLink').click(function() {
+          $(this).text($(this).text() ==
+          'Read More...' ? 'Hide' : 'Read More...');
+        });
+      });
+      $('#myTab a').click(function (e) {
+        $(this).tab('show');
+      });
+    </script>
+    <script>
+      (function ($) {
+        $(document).ready(function(){
+        	// hide .navbar first
+          $(".navbar").hide();
+          // fade in .navbar
+          $(function () {
+          	$(window).scroll(function () {
+              // set distance user needs to scroll before we fadeIn navbar
+          		if ($(this).scrollTop() > 150) {
+          			$('.navbar').fadeIn();
+          		} else {
+          			$('.navbar').fadeOut();
+          		}
+          	});
+          });
+        });
+      }(jQuery));
+    </script>
+
+  </body>
 </html>

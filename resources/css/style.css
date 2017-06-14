@@ -1,13 +1,117 @@
-video {
-  width: 100%;
-  margin-top: 10%;
-  max-height: 100%;
-}
-
-html {
-  max-height:100%;
-}
-
+/********** GENERAL STYLES ********/
 body {
-  background-color: black;
+  background-color: #dae7f1;
+  position: relative;
+}
+
+a:link, a:active {
+  text-decoration: underline;
+  color: black;
+}
+
+.no-decoration {
+  text-decoration: none !important;
+}
+
+/********** NAVIGATION STYLES ********/
+.navbar {
+  margin-bottom: 0px;
+  background-color: #4682b4;
+  border: 0px solid;
+  min-height:28px !important;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a {
+  color: #dae7f1;
+}
+
+.no-right-margin {
+  margin-right: 0px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+  padding-bottom:0 !important;
+  height: 28px;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -55px;
+  visibility: hidden;
+}
+
+/********** JUMBOTRON STYLES ********/
+.jumbotron {
+  background-color: #4682b4;
+  padding-top: 60px;
+}
+
+.white {
+  color: #dae7f1;
+}
+
+h1 small {
+  font-size: 26%;
+  color: black;
+}
+
+h1 small span {
+  margin-left: 2%;
+}
+
+
+/********** SECTION STYLES ********/
+.section-box-about {
+  background-color: white;
+  padding: 2px 20px;
+  margin: 0px 30px;
+}
+
+.section-box {
+  background-color: white;
+  padding: 2px 20px;
+  margin: 30px;
+}
+
+.section-title {
+  color: #4682b4;
+}
+
+.make-inline {
+  display: inline;
+}
+
+.no-padding {
+  padding: 0px
+}
+
+@media only screen and (min-width: 768px) {
+  .no-left-margin {
+    margin-left: 0px;
+  }
+}
+
+/********** IMAGE STYLES ********/
+#moreLink {
+  padding: 0px;
+}
+
+#mike-img {
+  max-height: 200px;
+  max-width: 300px
+}
+
+.fixed-width {
+  height: 40px;
+  width: 50px;
+}
+
+
+/********** FOOTER STYLES ********/
+footer {
+  background-color: #4682b4;
+  padding-left: 50px !important;
+  padding-right: 50px !important
 }
