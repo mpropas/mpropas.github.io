@@ -4,6 +4,20 @@ body {
   position: relative;
 }
 
+blockquote {
+  font-size: 14px
+}
+
+.white-background {
+  background-color: white;
+}
+
+h3 {
+  margin-bottom: 15px;
+}
+
+/********** BUTTON & LINK STYLES ********/
+
 a:link, a:active {
   text-decoration: underline;
   color: black;
@@ -11,6 +25,15 @@ a:link, a:active {
 
 .no-decoration {
   text-decoration: none !important;
+}
+
+.btn:focus, .btn:active:focus {
+  outline: none;
+}
+
+.btn-link {
+  text-decoration: underline;
+  color: black;
 }
 
 /********** NAVIGATION STYLES ********/
@@ -103,11 +126,13 @@ h1 small span {
   max-width: 300px
 }
 
-.fixed-width {
-  height: 40px;
-  width: 50px;
+.fixed-height {
+  height: 42px;
 }
 
+.logo {
+  height: 40px;
+}
 
 /********** FOOTER STYLES ********/
 footer {
