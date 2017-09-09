@@ -140,3 +140,14 @@ footer {
   padding-left: 50px !important;
   padding-right: 50px !important
 }
+
+.foot-style {
+  margin: 10px 0 0 0;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.margin-fix {
+  margin-top: 5px;
+  margin-bottom: 20px
+}
