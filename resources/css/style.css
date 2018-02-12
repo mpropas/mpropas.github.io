@@ -118,6 +118,11 @@ h1 small span {
   }
 }
 
+.min-450 {
+  min-height: 465px;
+}
+
+
 /********** IMAGE STYLES ********/
 #moreLink {
   padding: 0px;
