@@ -17,7 +17,6 @@ h3 {
 }
 
 
-
 /********** BUTTON & LINK STYLES ********/
 
 a:link, a:active {
@@ -65,6 +64,10 @@ a:link, a:active {
   position: relative;
   top: -55px;
   visibility: hidden;
+}
+
+.counter {
+  color: #ecebdf
 }
 
 /********** JUMBOTRON STYLES ********/
@@ -119,7 +122,7 @@ h1 small span {
 }
 
 .min-450 {
-  min-height: 465px;
+  min-height: 488px;
 }
 
 
