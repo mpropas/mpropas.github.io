@@ -1,6 +1,6 @@
 /********** GENERAL STYLES ********/
 body {
-  background-color: #b9c1c8; 
+  background-color: #2d60c7; 
   position: relative;
 }
 
@@ -40,14 +40,14 @@ a:link, a:active {
 /********** NAVIGATION STYLES ********/
 .navbar {
   margin-bottom: 0px;
-  background-color: #7cbbb7;
+  background-color: #47e659;
   border: 0px solid;
   min-height:28px !important;
 }
 
 .navbar-inverse .navbar-brand,
 .navbar-inverse .navbar-nav > li > a {
-  color: #b9c1c8;
+  color: #2d60c7;
 }
 
 .no-right-margin {
@@ -67,17 +67,17 @@ a:link, a:active {
 }
 
 .counter {
-  color: #b9c1c8
+  color: #2d60c7
 }
 
 /********** JUMBOTRON STYLES ********/
 .jumbotron {
-  background-color: #7cbbb7;
+  background-color: #47e659;
   padding-top: 60px;
 }
 
 .white {
-  color: #b9c1c8;
+  color: #2d60c7;
 }
 
 h1 small {
@@ -104,7 +104,7 @@ h1 small span {
 }
 
 .section-title {
-  color: #7cbbb7;
+  color: #47e659;
 }
 
 .make-inline {
@@ -146,7 +146,7 @@ h1 small span {
 
 /********** FOOTER STYLES ********/
 footer {
-  background-color: #7cbbb7;
+  background-color: #47e659;
   padding-left: 50px !important;
   padding-right: 50px !important
 }
